@@ -148,7 +148,7 @@ to use some common Rake tasks that handle the certain database-related jobs.
 One common pattern you'll soon become familiar with is the pattern of writing
 code that creates database tables and then "migrating" that code using a rake
 task.
-
+-
 Our `Student` class currently has a `#create_table` method, so let's use that
 method to build out our own `migrate` Rake task.
 
